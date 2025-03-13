@@ -1,14 +1,16 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from ydata_profiling import ProfileReport
 
 
-file_path = r"C:\Users\yusheng.leow\Downloads\Fraudulent_online_shops_dataset.csv"
+file_path = r"C:\Users\yusheng.leow\OneDrive - Birkenstock Group B.V. & Co. KG\Desktop\Fraudulent_online_shops_dataset.csv"
 df = pd.read_csv(file_path, delimiter = ";")
 
 print(df.info())
 print(df.head())
 print(df.describe())
+df.isna().any()
 
 
 # Ensure 'Label' is categorical for proper visualization
@@ -43,3 +45,7 @@ plt.figure(figsize=(12, 8))
 sns.heatmap(df.corr(numeric_only=True), cmap="coolwarm", annot=True, fmt=".2f", linewidths=0.5)
 plt.title("Feature Correlation Heatmap")
 plt.show()
+
+# Print report
+#report = df.profile_report(title="EDA Report")
+#report.to_file("EDA_Report.html")
