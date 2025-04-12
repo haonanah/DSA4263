@@ -2,6 +2,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+<a name="readme-top"></a>
 
 Insurance fraud, especially in vehicle claims, is a growing global issue that costs the industry billions annually and leads to higher premiums for honest customers. With the increasing complexity and subtlety of fraudulent activities—such as staged accidents and inflated repair costs—traditional methods of detection are no longer sufficient.
 
