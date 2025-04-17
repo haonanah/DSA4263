@@ -34,7 +34,7 @@ dev_notebook_final.ipynb for exploratory data analysis (EDA)
 ```sh
 ensemble_modelling.ipynb for building and evaluating models
 ```
-
+6. Run `dev_notebook_final.ipynb` first, followed by `ensemble_modelling.ipynb`, to explore the insurance fraud dataset and work through the analysis and modeling with us!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
