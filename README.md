@@ -10,7 +10,7 @@ This project aims to tackle insurance fraud using a data-driven approach, applyi
 
 This project is part of our graded coursework in the National University of Singapore module DSA4263 Sense-Making Case Analysis: Business and Commerce.
  
-## Information about the Guthub Repo
+## Repository Overview
 
 Link to full dataset: https://www.kaggle.com/datasets/shivamb/vehicle-claim-fraud-detection
 
