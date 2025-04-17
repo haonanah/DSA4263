@@ -30,7 +30,8 @@ Link to full dataset: https://www.kaggle.com/datasets/shivamb/vehicle-claim-frau
 
 ```sh
 dev_notebook_final.ipynb for exploratory data analysis (EDA)
-
+```
+```sh
 ensemble_modelling.ipynb for building and evaluating models
 ```
 
