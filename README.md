@@ -10,21 +10,29 @@ This project aims to tackle insurance fraud using a data-driven approach, applyi
 
 This project is part of our graded coursework in the National University of Singapore module DSA4263 Sense-Making Case Analysis: Business and Commerce.
  
-## Getting Started
+## Information about the Guthub Repo
+
+Link to full dataset: https://www.kaggle.com/datasets/shivamb/vehicle-claim-fraud-detection
+
 1. Clone the repo.
 
    ```sh
    git clone https://github.com/haonanah/DSA4263.git
-   ```
-2. Create a folder in the root of the cloned repo 'data'
-3. Cleaned dataset is named 'fraud_oracle_processed.csv'
-4. Link to full dataset: https://www.kaggle.com/datasets/shivamb/vehicle-claim-fraud-detection
-5. Install Required Packages
+   ``` 
+2. Install Required Packages
 
    ```sh
    pip install requirements.txt
    ```
-6. Run (fill in later)
+3. The `data` folder contains both the raw and processed datasets used throughout the project.
+4. The `dev work` folder includes all the exploratory notebooks and drafts created during the development process.
+5. To keep our work organized and maintain clarity, we have structured the notebooks into two main files:
+
+```sh
+dev_notebook_final.ipynb for exploratory data analysis (EDA)
+
+ensemble_modelling.ipynb for building and evaluating models
+```
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
